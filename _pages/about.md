@@ -11,6 +11,6 @@ I'm a research assistant of Prof. Dr. Yao Lu at [School of Computer Science and 
 
 My research interest includes computer vision, computer graphics, machine learning, and computational photography.
 
-You can find my CV here: [Hai's Curriculum Vitae](../assets/CV.pdf).
+You can find my CV here: [Hai's Curriculum Vitae](https://pigejianghai.github.io/Hai.github.io/CV/Hai Jiang - Curriculum Vitae.pdf).
 
 [Email](mailto:jiangh14@lzu.edu.cn) / [Github](https://github.com/pigejianghai) 
