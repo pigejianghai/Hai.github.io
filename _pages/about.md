@@ -7,10 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I'm a research assistant of Prof. Dr. Yao Lu at [School of Computer Science and Engineering](https://cse.sysu.edu.cn/), .[Sun Yat-sen University](https://www.sysu.edu.cn/) 
+I'm a research assistant of Prof. Dr. Yao Lu at [School of Computer Science and Engineering](https://cse.sysu.edu.cn/), [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
-My research interest includes computer vision, computer graphics, machine learning, and computational photography.
+Recently Looking for a PhD/Doctoral position.
 
-You can find my CV here: [Hai's Curriculum Vitae](https://pigejianghai.github.io/Hai.github.io/CV/Hai Jiang - Curriculum Vitae.pdf).
+My research interest includes computer vision, Artificial Intelligence, Applied Mathematics, Medical Image Analysis, and Physics.
+
+You can find my CV here: [Hai's Curriculum Vitae](https://pigejianghai.github.io/Hai.github.io/CV/Hai%20Jiang%20-%20Curriculum%20Vitae.pdf).
 
 [Email](mailto:jiangh14@lzu.edu.cn) / [Github](https://github.com/pigejianghai) 
