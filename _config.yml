@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Hai Jiang"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Hai Jiang"
 description              : &description "personal description"
 url                      : https://pigejianghai.github.io/Hai.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : https://github.com/pigejianghai?tab=repositories
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "foshan.png"
   name             : "Hai Jiang"
   pronouns         : # example: "she/her"  
   bio              : "Research Assistant."
