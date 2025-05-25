@@ -1,0 +1,148 @@
+\documentclass[english,a4paper,nologo,notitle,10pt]{europasscv}
+
+\usepackage[english]{babel}
+\usepackage[backend=biber,autolang=hyphen,sorting=none,style=numeric,maxbibnames=99,doi=false,isbn=false,maxcitenames=2]{biblatex}
+\usepackage{csquotes}
+\usepackage{europasscv-bibliography}
+
+
+\renewcommand*{\bibfont}{\footnotesize}
+\bibliography{ref}
+\ecvbibhighlight{Jiang}{Hai}{H. J.}
+
+\ecvname{Hai Jiang}
+\ecvaddress{Guangzhou, P. R. China}
+\ecvtelephone{(+86) 198 6771 3757}
+\ecvemail{jiangh14@lzu.edu.cn}
+\ecvhomepage{https://pigejianghai.github.io/Hai.github.io}
+\ecvgithubpage{https://github.com/pigejianghai}
+\ecvlinkedinpage{https://www.linkedin.com/in/hai-jiang-649171314}
+\ecvorcid[label, link]{0009-0007-9735-7581}
+\ecvdateofbirth{21 December 1997}
+\ecvnationality{Chinese}
+\ecvgender{Male}
+% \ecvpicture[width=3cm]{standard.jpg}
+
+\begin{document}
+    \begin{europasscv}
+        
+    \ecvpersonalinfo
+    \ecvbigitem{Job applied for}{Ph. D Researcher}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%% Education
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvsection{Education}
+    \ecvtitlelevel{September 2019--July 2022}{Master of Science in Computational Mathematics}{M. Sc.}
+    \ecvitem{}{Nankai University (NKU, Project 985 \& 211, Double First-Class), Tianjin, China}
+    \ecvitem{Thesis}{GANs-Based Personal Style Imitation of Chinese Handwritten Characters.}
+    \ecvitem{}{Developed an end-to-end CycleGAN framework achieving 85\% visual similarity (10\% improvement over baselines).}
+    \ecvitem{Key Skills}{GANs, style-transfer learning, Python, PyTorch, data pre-processing.}
+    \ecvitem{Advisors}{Prof. Yunhua Xue, Prof. Chunlin Wu.}
+    \ecvitem{Relevant Coursework}{Approximation Theory, Numerical Optimization, Functional Analysis, Matrix Computation, Numerical PDEs.}
+    \ecvitem{GPA}{3.06/4.00.}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvtitlelevel{September 2014--July 2018}{Bachelor of Engineering in Information Security}{B. Eng.}
+    \ecvitem{}{Lanzhou University (LZU, Project 985 \& 211, Double First-Class), Lanzhou, Gansu, China}
+    \ecvitem{Thesis}{Improved Upper Bounds of Roman Domination Number in Maximal Outer planar Graphs.}
+    \ecvitem{}{Focused on graph theory and combinatorial optimization.}
+    \ecvitem{Advisors}{Prof. Zepeng Li.}
+    \ecvitem{Relevant Coursework}{Discrete Mathematics, Data Structures, Operating Systems, C/C++ Programming, Database Theory.}
+    \ecvitem{GPA}{4.15/5.00.}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%% Research Experience
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvsection{Research Experience}
+    \ecvtitlelevel{Novermber 2022--July 2024}{Research Assistant | Computational Medical Imaging Laboratory}{R. A.}
+    \ecvitem{}{School of Computer Science and Engineering, Sun Yat-sen University}
+    \ecvitem{Project}{Placenta Accreta Spectrum Disorder Classification.}
+    \ecvitem{}{
+        \begin{ecvitemize}
+            \item Developed a prior-knowledge-based deep learning approach for classifying PASD (binary classification task), achieving AUC of 0.9902.
+            \item Developed a multi-task learning model using T2-WI MRI images (multi-class classification task), achieving AUC of 0.80.
+            \item Published: ``Anatomy-Guided Multitask Learning for MRI-Based Classification of Placenta Accreta Spectrum and It's Subtypes'' \cite{jiang2025anatomy}.
+        \end{ecvitemize}
+    }
+    \ecvitem{Skills}{Literature review, data preprocessing, PyTorch, research writing.}
+    \pagebreak
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvtitlelevel{December 2023--January 2024}{Research Assistant | Computational Medical Imaging Laboratory}{R. A.}
+    \ecvitem{}{School of Computer Science and Engineering, Sun Yat-sen University}
+    \ecvitem{Project}{Breast Cancer Metastasis Prediction.}
+    \ecvitem{}{
+        \begin{ecvitemize}
+            \item Designed a CNN-based framework using dual-energy CT scans to predict metastasis.
+            \item Achieved AUC of 0.85 (averaged-score in cross-validation).
+            \item Manuscript submitted to MICCAI 2024 and under revision for Journal of Medical Physics.
+        \end{ecvitemize}
+    }
+    \ecvitem{Skills}{TensorFlow, Keras, data analysis, experimental design, research writing.}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvtitlelevel{January 2022--June 2022}{Research Student | Image Analysis Team}{}
+    \ecvitem{}{School of Mathematical Sciences, Nankai University}
+    \ecvitem{Project}{ADMM Model for Compressed-Sensing MRI.}
+    \ecvitem{}{
+        \begin{ecvitemize}
+            \item Reproduced iterative mathematical equations from Deep ADMM-Net for Compressed- \newline Sensing MRI using C++, Python, and PyTorch.
+        \end{ecvitemize}
+    }
+    \ecvitem{Skills}{ Compressed-sensing theory, neural networks, MRI reconstruction.}
+
+    \nocite{*}
+    \renewcommand{\section}[2]{\ecvsection{#2}}
+    \printbibtabular[title=Publications]
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%% Technical Skills
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvsection{Technical Skills}
+    \ecvitem{Programming}{Python, PyTorch, TensorFlow, Keras, C/C++, MATLAB, LaTeX, Git.}
+    \ecvitem{Tools \& Platforms}{Linux (Ubuntu), Microsoft Office, Adobe Photoshop.}
+    \ecvitem{Research Methods}{Deep learning, Image processing, Medical imaging, Compressed sensing.}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%% Awards & Scholarship
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvsection{Awards \& Scholarship}
+    \ecvitem{2014--2018}{Four-time recipient of the Third-Class Merit Scholarship for Academic Excellence at LZU.}
+    \ecvitem{2019--2022}{Three-time recipient of the Third-Class Merit Scholarship for Academic Excellence at NKU.}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%% Language Proficiency
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvsection{Language Proficiency}
+    \ecvitem{Mandarin}{Native.}
+    \ecvitem{English}{Professional (IELTS 6.5, CET6 476/710, CET4 544/710).}
+    \ecvitem{Cantonese}{Intermediate.}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%% Funding & Patent Work
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvsection{Funding \& Patent Work}
+    \ecvitem{Funding Proposal Writing}{Contributed to National Key R\&D Program of China [No. 2023YFE0204300].}
+    \ecvitem{Report Writing}{Completed three Completion \& Progress Reports for National Natural Science Foundation of China [No. 81971691, 12126610] and R\&D Program of Pazhou Lab [No. 2023K0606].}
+    \ecvitem{Patent Work}{1 patent application under review.}
+    \ecvitem{Medical Device Specification}{Successfully completed 1 medical device application.}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%% Teaching Experience
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvsection{Teaching Experience}
+    \ecvitem{Courses Taught}{Calculus, Mathematical Analysis.}
+    \ecvitem{Thesis Supervision}{Breast Cancer Classification Method Based on Dual-Energy CT Images.}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%% Research Interest
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvsection{Research Interest}
+    \ecvitem{}{Artificial Intelligence, Deep Learning (CNNs, GNNs).}
+    \ecvitem{}{Mathematics, Medical Image Analysis, Physics.}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%% References
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \ecvsection{References}
+    \ecvblueitem{Yunhua Xue}{Associate Professor, Computational Mathematics, Nankai University}
+    \ecvitem{}{\underline{yhxue@nankai.edu.cn}}
+    \ecvitem{}{address: 94 Weijin Road, Nankai District, and Tianjin, China.}
+    \ecvblueitem{Yao Lu}{Professor, Medical Image Analysis, Sun Yat-sen University}
+    \ecvitem{}{\underline{luyao23@mail.sysu.edu.cn}}
+    \ecvitem{}{address: Xingang West Road, Haizhu District, and Guangzhou, China.}
+    \ecvblueitem{Yuanpin Zhou }{Postdoctoral Researcher, Medical Image Analysis, Zhejiang University}
+    \ecvitem{}{\underline{yuanpinzhou@zju.edu.cn}}
+    \ecvitem{}{address: 866 Yuhangtang Rd, Hangzhou 310058, China.}
+
+    \end{europasscv}
+\end{document}
