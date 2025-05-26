@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.21)  25 MAY 2025 15:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.21)  26 MAY 2025 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"f:/Ph. D/CV/latex-template-collection-master/curriculum-vitae/europasscv/HaiJ"
-(f:/Ph. D/CV/latex-template-collection-master/curriculum-vitae/europasscv/HaiJ.tex
+**"f:/Ph. D/Personal Pages/Hai.github.io/CV/europasscv/HaiJ"
+(f:/Ph. D/Personal Pages/Hai.github.io/CV/europasscv/HaiJ.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./europasscv.cls
 Document Class: europasscv 2020-10-31 The Europass curriculum vitae class (2013 version)
@@ -844,7 +844,10 @@ File: icons/orcid_europass_icon.pdf Graphic file (type pdf)
  [1
 
 
-] [2] [3] 
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 92.
+ [2] [3] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./HaiJ.aux)
 Package rerunfilecheck Info: File `HaiJ.out' has not changed.
@@ -854,12 +857,12 @@ Package logreq Info: Writing requests to 'HaiJ.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22554 strings out of 476683
- 447313 string characters out of 5801401
+ 22571 strings out of 476683
+ 447762 string characters out of 5801401
  1876012 words of memory out of 5000000
- 42503 multiletter control sequences out of 15000+600000
- 514959 words of font info for 62 fonts, out of 8000000 for 9000
+ 42513 multiletter control sequences out of 15000+600000
+ 515887 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,23n,99p,628b,4977s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,23n,99p,607b,5086s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on HaiJ.pdf (3 pages).

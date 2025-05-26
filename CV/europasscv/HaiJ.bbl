@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{jiang2025anatomy}{inproceedings}{}
+    \entry{jiang2025anatomyguidedmultitasklearningmribased}{misc}{}
       \name{author}{6}{}{%
         {{hash=3c7f9b213cbc89c3a5f49bf522dc4672}{%
            family={Jiang},
@@ -52,9 +52,6 @@
            given={Yao},
            giveni={Y\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
       \strng{namehash}{2f12057fba7b385c460dabcfee6f901c}
       \strng{fullhash}{767ac0996e92177002a0dc2210437d15}
       \strng{bibnamehash}{767ac0996e92177002a0dc2210437d15}
@@ -66,11 +63,19 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)}
+      \field{eprintclass}{eess.IV}
+      \field{eprinttype}{arXiv}
       \field{title}{Anatomy-Guided Multitask Learning for MRI-Based Classification of Placenta Accreta Spectrum and its Subtypes}
       \field{year}{2025}
-      \field{pages}{1\bibrangedash 5}
-      \range{pages}{5}
+      \verb{eprint}
+      \verb 2505.17484
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2505.17484
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2505.17484
+      \endverb
     \endentry
     \entry{pan2023atypical}{article}{}
       \name{author}{9}{}{%
@@ -185,7 +190,7 @@
       \field{title}{Anatomical-Prior-Based Multiscale Segmentation of Cardiac Substructures Using Enhanced Skip-Connections and a Triple-View Fusion Network.}
       \true{nocite}
     \endentry
-    \entry{jiangdect}{article}{}
+    \entry{jiang2025dectbasedspacesqueezemethodmulticlass}{misc}{}
       \name{author}{8}{}{%
         {{hash=3c7f9b213cbc89c3a5f49bf522dc4672}{%
            family={Jiang},
@@ -239,9 +244,20 @@
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitting}
+      \field{eprintclass}{eess.IV}
+      \field{eprinttype}{arXiv}
       \field{title}{DECT-based Space-Squeeze Method for Multi-Class Classification of Metastatic Lymph Nodes in Breast Cancer}
+      \field{year}{2025}
       \true{nocite}
+      \verb{eprint}
+      \verb 2505.17528
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2505.17528
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2505.17528
+      \endverb
     \endentry
     \entry{pan2026atypical}{inproceedings}{}
       \name{author}{9}{}{%
