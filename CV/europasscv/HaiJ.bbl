@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{jiang2025anatomyguidedmultitasklearningmribased}{misc}{}
+    \entry{10981099}{inproceedings}{}
       \name{author}{6}{}{%
         {{hash=3c7f9b213cbc89c3a5f49bf522dc4672}{%
            family={Jiang},
@@ -63,19 +63,15 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{eess.IV}
-      \field{eprinttype}{arXiv}
+      \field{booktitle}{2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)}
       \field{title}{Anatomy-Guided Multitask Learning for MRI-Based Classification of Placenta Accreta Spectrum and its Subtypes}
       \field{year}{2025}
-      \verb{eprint}
-      \verb 2505.17484
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ISBI60581.2025.10981099
       \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2505.17484
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2505.17484
-      \endverb
+      \keyw{Pregnancy;Accuracy;Placenta;Magnetic resonance imaging;Biological system modeling;Convolutional neural networks;Hemorrhaging;Guidelines;Biomedical imaging;Placenta Accreta Spectrum;MRI;Prenatal Diagnosis;Multi-class;Multitask Learning}
     \endentry
     \entry{pan2023atypical}{article}{}
       \name{author}{9}{}{%
