@@ -25,9 +25,9 @@ author:
   avatar           : "foshan.png"
   name             : "Hai Jiang"
   pronouns         : # example: "she/her"  
-  bio              : "Research Assistant."
+  # bio              : "Research Assistant."
   location         : "P.R. China"
-  employer         : "Null"
+  # employer         : "Null"
   uri              : # URL
   email            : "jianghai97@mail.nankai.edu.cn" 
 
