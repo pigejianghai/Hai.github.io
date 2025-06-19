@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'HaiJ.blg'
-[126] biber-MSWIN64:340> INFO - === 
-[173] Biber.pm:419> INFO - Reading 'HaiJ.bcf'
-[313] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[331] Biber.pm:4419> INFO - Processing section 0
-[349] Biber.pm:4610> INFO - Looking for bibtex file 'ref.bib' for section 0
-[408] bibtex.pm:1713> INFO - LaTeX decoding ...
-[418] bibtex.pm:1519> INFO - Found BibTeX data source 'ref.bib'
-[512] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[512] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[512] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[512] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[523] bbl.pm:660> INFO - Writing 'HaiJ.bbl' with encoding 'UTF-8'
-[530] bbl.pm:763> INFO - Output to HaiJ.bbl
+[133] biber-MSWIN64:340> INFO - === 
+[176] Biber.pm:419> INFO - Reading 'HaiJ.bcf'
+[364] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[390] Biber.pm:4419> INFO - Processing section 0
+[405] Biber.pm:4610> INFO - Looking for bibtex file 'ref.bib' for section 0
+[463] bibtex.pm:1713> INFO - LaTeX decoding ...
+[473] bibtex.pm:1519> INFO - Found BibTeX data source 'ref.bib'
+[567] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[567] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[567] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[567] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[579] bbl.pm:660> INFO - Writing 'HaiJ.bbl' with encoding 'UTF-8'
+[587] bbl.pm:763> INFO - Output to HaiJ.bbl
