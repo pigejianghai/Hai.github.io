@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,44 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{liuPASD}{article}{}
-      \name{author}{4}{}{%
-        {{hash=2a50d2d6b2769efed4d264376b33c4a0}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Qiongting},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=3c7f9b213cbc89c3a5f49bf522dc4672}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Hai},
-           giveni={H\bibinitperiod}}}%
-        {{hash=f8815e800f4b52a9cc85d7f8a844f16e}{%
-           family={Song},
-           familyi={S\bibinitperiod},
-           given={Ting},
-           giveni={T\bibinitperiod}}}%
-        {{hash=412e1388b73ef19ade8c52ca3431f84c}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Yao},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{1fb2477314d9f89063b92e2175407185}
-      \strng{fullhash}{e7fbc494b910a040143d169feb765377}
-      \strng{bibnamehash}{e7fbc494b910a040143d169feb765377}
-      \strng{authorbibnamehash}{e7fbc494b910a040143d169feb765377}
-      \strng{authornamehash}{1fb2477314d9f89063b92e2175407185}
-      \strng{authorfullhash}{e7fbc494b910a040143d169feb765377}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{On-going}
-      \field{title}{Clinical prior-knowledge-based deep learning approach for the diagnosis of placenta accreta spectrum}
-    \endentry
-    \entry{10981099}{inproceedings}{}
+  \datalist[entry]{count/global//global/global/global}
+    \entry{10981099}{inproceedings}{}{}
       \name{author}{6}{}{%
         {{hash=3c7f9b213cbc89c3a5f49bf522dc4672}{%
            family={Jiang},
@@ -90,13 +54,15 @@
       }
       \strng{namehash}{2f12057fba7b385c460dabcfee6f901c}
       \strng{fullhash}{767ac0996e92177002a0dc2210437d15}
+      \strng{fullhashraw}{767ac0996e92177002a0dc2210437d15}
       \strng{bibnamehash}{767ac0996e92177002a0dc2210437d15}
       \strng{authorbibnamehash}{767ac0996e92177002a0dc2210437d15}
       \strng{authornamehash}{2f12057fba7b385c460dabcfee6f901c}
       \strng{authorfullhash}{767ac0996e92177002a0dc2210437d15}
+      \strng{authorfullhashraw}{767ac0996e92177002a0dc2210437d15}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)}
@@ -108,75 +74,7 @@
       \verb 10.1109/ISBI60581.2025.10981099
       \endverb
     \endentry
-    \entry{jiang2025dectbasedspacesqueezemethodmulticlass}{misc}{}
-      \name{author}{8}{}{%
-        {{hash=3c7f9b213cbc89c3a5f49bf522dc4672}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Hai},
-           giveni={H\bibinitperiod}}}%
-        {{hash=996b500764df1c0dd936171711d0d5ab}{%
-           family={Zheng},
-           familyi={Z\bibinitperiod},
-           given={Chushan},
-           giveni={C\bibinitperiod}}}%
-        {{hash=bf57e25a34ddaec8ccab367832fef717}{%
-           family={Pan},
-           familyi={P\bibinitperiod},
-           given={Jiawei},
-           giveni={J\bibinitperiod}}}%
-        {{hash=20ee303c375d5e6c52dccf4332d72786}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Yuanpin},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=2a50d2d6b2769efed4d264376b33c4a0}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Qiongting},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=87f628db6da99dc0a2a20f276e51b3ac}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Xiang},
-           giveni={X\bibinitperiod}}}%
-        {{hash=a66e16d9a0eb90a95361e24bff347dfd}{%
-           family={Shen},
-           familyi={S\bibinitperiod},
-           given={Jun},
-           giveni={J\bibinitperiod}}}%
-        {{hash=412e1388b73ef19ade8c52ca3431f84c}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Yao},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{2f12057fba7b385c460dabcfee6f901c}
-      \strng{fullhash}{d1ec60938648efd47f0b23ebcf6039d3}
-      \strng{bibnamehash}{d1ec60938648efd47f0b23ebcf6039d3}
-      \strng{authorbibnamehash}{d1ec60938648efd47f0b23ebcf6039d3}
-      \strng{authornamehash}{2f12057fba7b385c460dabcfee6f901c}
-      \strng{authorfullhash}{d1ec60938648efd47f0b23ebcf6039d3}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{eess.IV}
-      \field{eprinttype}{arXiv}
-      \field{title}{DECT-based Space-Squeeze Method for Multi-Class Classification of Metastatic Lymph Nodes in Breast Cancer}
-      \field{year}{2025}
-      \verb{eprint}
-      \verb 2505.17528
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2505.17528
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2505.17528
-      \endverb
-    \endentry
-    \entry{pan2023atypical}{article}{}
+    \entry{pan2023atypical}{article}{}{}
       \name{author}{9}{}{%
         {{hash=bf57e25a34ddaec8ccab367832fef717}{%
            family={Pan},
@@ -229,13 +127,15 @@
       }
       \strng{namehash}{641f066cbb1eab19d86c2f3cb9834a18}
       \strng{fullhash}{110f62462ec1652e99121663ef662553}
+      \strng{fullhashraw}{110f62462ec1652e99121663ef662553}
       \strng{bibnamehash}{110f62462ec1652e99121663ef662553}
       \strng{authorbibnamehash}{110f62462ec1652e99121663ef662553}
       \strng{authornamehash}{641f066cbb1eab19d86c2f3cb9834a18}
       \strng{authorfullhash}{110f62462ec1652e99121663ef662553}
+      \strng{authorfullhashraw}{110f62462ec1652e99121663ef662553}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physics in Medicine \& Biology}
@@ -243,11 +143,10 @@
       \field{title}{Atypical architectural distortion detection in digital breast tomosynthesis: a multi-view computer-aided detection model with ipsilateral learning}
       \field{volume}{68}
       \field{year}{2023}
-      \true{nocite}
       \field{pages}{235006}
       \range{pages}{1}
     \endentry
-    \entry{wang}{article}{}
+    \entry{wang}{article}{}{}
       \name{author}{5}{}{%
         {{hash=2b00ca6a7a75087db1e3243d2494fb6f}{%
            family={Wang},
@@ -277,19 +176,91 @@
       }
       \strng{namehash}{39a72f8665cecf58f98dc5e7b5864bfb}
       \strng{fullhash}{2498929c654757ddad31d2ba55ad89ed}
+      \strng{fullhashraw}{2498929c654757ddad31d2ba55ad89ed}
       \strng{bibnamehash}{2498929c654757ddad31d2ba55ad89ed}
       \strng{authorbibnamehash}{2498929c654757ddad31d2ba55ad89ed}
       \strng{authornamehash}{39a72f8665cecf58f98dc5e7b5864bfb}
       \strng{authorfullhash}{2498929c654757ddad31d2ba55ad89ed}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{authorfullhashraw}{2498929c654757ddad31d2ba55ad89ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Submitting}
       \field{title}{Anatomical-Prior-Based Multiscale Segmentation of Cardiac Substructures Using Enhanced Skip-Connections and a Triple-View Fusion Network.}
       \true{nocite}
     \endentry
-    \entry{pan2026atypical}{inproceedings}{}
+    \entry{jiang2025dectbasedspacesqueezemethodmulticlass}{misc}{}{}
+      \name{author}{8}{}{%
+        {{hash=3c7f9b213cbc89c3a5f49bf522dc4672}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Hai},
+           giveni={H\bibinitperiod}}}%
+        {{hash=996b500764df1c0dd936171711d0d5ab}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Chushan},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bf57e25a34ddaec8ccab367832fef717}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=20ee303c375d5e6c52dccf4332d72786}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yuanpin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2a50d2d6b2769efed4d264376b33c4a0}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qiongting},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=87f628db6da99dc0a2a20f276e51b3ac}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=a66e16d9a0eb90a95361e24bff347dfd}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=412e1388b73ef19ade8c52ca3431f84c}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f12057fba7b385c460dabcfee6f901c}
+      \strng{fullhash}{d1ec60938648efd47f0b23ebcf6039d3}
+      \strng{fullhashraw}{d1ec60938648efd47f0b23ebcf6039d3}
+      \strng{bibnamehash}{d1ec60938648efd47f0b23ebcf6039d3}
+      \strng{authorbibnamehash}{d1ec60938648efd47f0b23ebcf6039d3}
+      \strng{authornamehash}{2f12057fba7b385c460dabcfee6f901c}
+      \strng{authorfullhash}{d1ec60938648efd47f0b23ebcf6039d3}
+      \strng{authorfullhashraw}{d1ec60938648efd47f0b23ebcf6039d3}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{eess.IV}
+      \field{eprinttype}{arXiv}
+      \field{title}{DECT-based Space-Squeeze Method for Multi-Class Classification of Metastatic Lymph Nodes in Breast Cancer}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2505.17528
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2505.17528
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2505.17528
+      \endverb
+    \endentry
+    \entry{pan2026atypical}{inproceedings}{}{}
       \name{author}{9}{}{%
         {{hash=bf57e25a34ddaec8ccab367832fef717}{%
            family={Pan},
@@ -339,18 +310,58 @@
       }
       \strng{namehash}{641f066cbb1eab19d86c2f3cb9834a18}
       \strng{fullhash}{110f62462ec1652e99121663ef662553}
+      \strng{fullhashraw}{110f62462ec1652e99121663ef662553}
       \strng{bibnamehash}{110f62462ec1652e99121663ef662553}
       \strng{authorbibnamehash}{110f62462ec1652e99121663ef662553}
       \strng{authornamehash}{641f066cbb1eab19d86c2f3cb9834a18}
       \strng{authorfullhash}{110f62462ec1652e99121663ef662553}
+      \strng{authorfullhashraw}{110f62462ec1652e99121663ef662553}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Submitted to MICCAI 2025 (rejected after rebuttal)}
+      \field{booktitle}{Submitted to MICCAI 2025 (rejected after rebuttal, currently under revision)}
       \field{title}{Multi-view Architectural Distortion Detection with Confidence Boosting in Digital Breast Tomosynthesis}
       \true{nocite}
+    \endentry
+    \entry{liuPASD}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=2a50d2d6b2769efed4d264376b33c4a0}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qiongting},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=3c7f9b213cbc89c3a5f49bf522dc4672}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Hai},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f8815e800f4b52a9cc85d7f8a844f16e}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod}}}%
+        {{hash=412e1388b73ef19ade8c52ca3431f84c}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fb2477314d9f89063b92e2175407185}
+      \strng{fullhash}{e7fbc494b910a040143d169feb765377}
+      \strng{fullhashraw}{e7fbc494b910a040143d169feb765377}
+      \strng{bibnamehash}{e7fbc494b910a040143d169feb765377}
+      \strng{authorbibnamehash}{e7fbc494b910a040143d169feb765377}
+      \strng{authornamehash}{1fb2477314d9f89063b92e2175407185}
+      \strng{authorfullhash}{e7fbc494b910a040143d169feb765377}
+      \strng{authorfullhashraw}{e7fbc494b910a040143d169feb765377}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{On-going}
+      \field{title}{Clinical prior-knowledge-based deep learning approach for the diagnosis of placenta accreta spectrum}
     \endentry
   \enddatalist
 \endrefsection
