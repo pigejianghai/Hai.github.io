@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.26)  3 JUL 2025 05:27
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.26)  27 AUG 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -869,7 +869,7 @@ Package logreq Info: Writing requests to 'HaiJ.run.xml'.
 Here is how much of TeX's memory you used:
  22743 strings out of 473831
  449664 string characters out of 5726711
- 1386813 words of memory out of 5000000
+ 1385793 words of memory out of 5000000
  45524 multiletter control sequences out of 15000+600000
  562437 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
