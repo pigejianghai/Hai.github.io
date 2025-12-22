@@ -1,15 +1,15 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
-[1] Config.pm:311> INFO - Logfile is 'HaiJ.blg'
-[165] biber-MSWIN64:340> INFO - === 
-[212] Biber.pm:420> INFO - Reading 'HaiJ.bcf'
-[361] Biber.pm:991> INFO - Using all citekeys in bib section 0
-[379] Biber.pm:4463> INFO - Processing section 0
-[394] Biber.pm:4654> INFO - Looking for bibtex file 'ref.bib' for section 0
-[453] bibtex.pm:1713> INFO - LaTeX decoding ...
-[466] bibtex.pm:1519> INFO - Found BibTeX data source 'ref.bib'
-[570] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[570] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[570] Biber.pm:4283> INFO - Sorting list 'count/global//global/global/global' of type 'entry' with template 'count' and locale 'en-US'
-[570] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[581] bbl.pm:676> INFO - Writing 'HaiJ.bbl' with encoding 'UTF-8'
-[588] bbl.pm:779> INFO - Output to HaiJ.bbl
+[0] Config.pm:311> INFO - Logfile is 'HaiJ.blg'
+[132] biber-MSWIN64:340> INFO - === 
+[173] Biber.pm:420> INFO - Reading 'HaiJ.bcf'
+[305] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[322] Biber.pm:4463> INFO - Processing section 0
+[336] Biber.pm:4654> INFO - Looking for bibtex file 'ref.bib' for section 0
+[388] bibtex.pm:1713> INFO - LaTeX decoding ...
+[398] bibtex.pm:1519> INFO - Found BibTeX data source 'ref.bib'
+[495] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[496] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[496] Biber.pm:4283> INFO - Sorting list 'count/global//global/global/global' of type 'entry' with template 'count' and locale 'en-US'
+[496] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[506] bbl.pm:676> INFO - Writing 'HaiJ.bbl' with encoding 'UTF-8'
+[513] bbl.pm:779> INFO - Output to HaiJ.bbl
