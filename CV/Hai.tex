@@ -1,0 +1,285 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[letterpaper]{DS_class_file} % a4paper for A4
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+
+% Tighten list spacing globally
+\setlist[itemize]{leftmargin=*,nosep}
+
+% Command for printing skill overview bubbles
+\newcommand\mllibs{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{~~~~~~~Raw~~~~~~~}\\\textbf{~~Data~~},
+        \textbf{~~~~~PyTorch~~~~~},
+        \textbf{~~~~Keras~~~~},
+        \textbf{~~~~Numpy~~~~},
+	\textbf{~~~~~Scikit~~~~~~}\\\textbf{~~~Learn~~~},
+	\textbf{~~TensorFlow~~}
+    }
+}
+
+\newcommand\pythonlibs{
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{~~~~~~Imbalanced~~~~~~}\\\textbf{~~~~~Learn~~~~~},
+        \textbf{~~~~~TorchMetrics~~~~~},
+        \textbf{~~~~~Albumentations~~~~~},
+        \textbf{~~~~~SimpleITK~~~~},
+        \textbf{~~~~~Ultralytics~~~~},
+        \textbf{~~~~~Pydicom~~~~},
+        \textbf{~~~Netron~~~}
+    }
+}
+
+
+
+% \newcommand\hobies{ 
+% ~
+% 	\smartdiagram[bubble diagram]{
+%         \textbf{~~~~Myself~~~~},
+%         \textbf{~~~~Reading~~~~}\\\textbf{~~~Books~~~},
+%         \textbf{~~~~Travelling~~~~},
+%         \textbf{~~~~Watching~~~~}\\\textbf{~~~Movies~~~},
+%         \textbf{~~~~Trekking~~~~}
+%     }
+% }
+
+
+
+
+% Programming skill bars
+% Sidebar programming skills, using \textbullet instead of $\textbullet$.
+\programming{{\textbullet{} C++ \textbullet{} C \textbullet{} MATLAB / 4.5}, {\textbullet{} Linux \textbullet{} Git \textbullet{} CMake / 5.0}, {\textbullet{} ONNX \textbullet{} TensorRT / 5.0}, 
+{\textbullet{} PyTorch \textbullet{} TensorFlow / 5.5}, 
+{\textbullet{} Python / 5.5}}
+\vspace{10mm}
+\programminglanguage{{ English (C1, IELTS 7.0) / 5}, { Mandarin Chinese (Native) / 6}}
+
+% Projects text
+%\vspace{15mm}
+%\languages{
+%		\textbf{English-C1}- Advanced in Listening, Reading, Writing and Speaking.\\
+%        \textbf{Arabic-A2} - Having basic knowledge about Arabic.
+%}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need onse or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{profile.jpg}% My photo is here
+\cvname{\hspace{-0.3cm}Hai} % My name.
+\cvsurname{\hspace{-0.3cm}Jiang} % My surname
+\cvjobtitle{{\LARGE\bfseries CV Engineer} \\[4pt] {\normalsize AI / ML Engineer} \\[2pt] {\normalsize Imaging Algorithms}} % My position.
+% title/career
+
+% \cvlinkedin{hai-jiang-649171314}
+\cvgithub{pigejianghai}
+\cvnumberphone{+86 198 6771 3757} % Phone number
+\cvsite{Guangdong, China} % Where I live.
+% \cvwebsite{pigejianghai.github.io/Hai.github.io/}
+\cvmail{jianghai97@mail.nankai.edu.cn} % Email address
+
+\aboutme{
+
+\justifying
+
+Computer vision and imaging algorithm engineer with five years of experience in medical imaging, industrial AI, segmentation, detection, OCR, geometric feature extraction, and deployment optimization. M.Sc. in Computational Mathematics from Nankai University. First-author ISBI 2025 paper and Medical Physics manuscript under revision. Strong in PyTorch, C++, ONNX, TensorRT, and Linux inference pipelines, with a focus on robust, efficient perception systems for Apple products.
+
+}
+
+% .
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Printing sidebar
+
+%----------------------------------------------------------------------------------------
+%	 Cover Letter
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Professional Experience}
+
+\begin{twenty}
+    \twentyitem
+        {2026.04}
+		{Present}
+		{\textbf{Image Algorithm Engineer}}
+		{\textbf{Shenzhen Image Technology Co., Ltd.}}
+        {}
+        {\begin{itemize}
+			\item Develop C++ geometry algorithms for PCB copper-layer Gerber parsing and polygon feature extraction, converting raw contour data into structured inspection-ready representations.
+			\item Extract edges, traces, corners, blocks, pads, and other manufacturing-critical geometric entities from large-scale polygon sets for downstream process inspection and quality analysis.
+			\item Design efficient computational geometry and topology analysis modules, optimize memory usage and throughput, and maintain unit tests and algorithm documentation for production use.
+        \end{itemize}}
+        \\
+    \twentyitem
+        {2025.08}
+		{2026.04}
+		{\textbf{Computer Vision Algorithm Engineer}}
+		{\textbf{Shenzhen Zhongrui Power Technology Co., Ltd.}}
+        {}
+        {\begin{itemize}
+			\item Built an automated AI engine for a property-management data platform using YOLO, enabling object recognition, segmentation, and classification from user-uploaded images.
+			\item Integrated OCR for receipts, signs, and document-like scenes, transforming detected text into structured outputs for platform workflows.
+			\item Packaged the inference pipeline behind standardized APIs for web integration, using ONNX export and TensorRT acceleration to improve real-time response latency.
+        \end{itemize}}
+        \\
+    \twentyitem		{2022.07}
+		{2025.07}
+		{\textbf{Research Assistant}}
+		{\textbf{Computational Medical Imaging Laboratory, Sun Yat-sen University}}
+		{}
+		{\begin{itemize}
+		\item Designed and validated algorithms for national medical AI projects, covering MRI, dual-energy CT, and digital breast tomosynthesis; contributed to grant proposals, final reports, and industry collaboration.
+		\item Proposed an anatomy-guided multitask learning framework with attention for placenta accreta spectrum classification on MRI, achieving AUC $>$ 0.99 and first-author acceptance at ISBI 2025.
+		\item Built a multi-channel CNN with a virtual-class strategy for lymph-node metastasis prediction from dual-energy CT, improving the average AUC to 0.85; manuscript under revision at Medical Physics.
+		\item Contributed to multi-view CNN and Siamese-network research for atypical architectural distortion detection in DBT, supporting a Guangdong Science and Technology Progress Award submission.
+		\end{itemize}}
+		\\
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{1cm}
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+	    {2019.09}
+	    {2022.06}
+	    {\textbf{M.Sc. in Computational Mathematics}}
+	    {\textbf{Nankai University} \hspace{0.1cm} Project 985 / 211 / Double First-Class}
+	    {}
+	    {\begin{itemize}
+			\item Research: optimization algorithms (Primal-Dual Learning, ADMM), deep learning, and MRI reconstruction.
+			\item Thesis: Deep Unfolding Networks for MRI Image Reconstruction.
+		\end{itemize}} 
+	\\
+   	\twentyitem
+	    {2015.09}
+	    {2019.06}
+	    {\textbf{B.Eng. in Information Security}}
+	    {\textbf{Lanzhou University} \hspace{0.1cm} Project 985 / 211 / Double First-Class}
+	    {}
+	    {\begin{itemize}
+			\item Core coursework: data structures, algorithm design and analysis, machine learning, and cryptography.
+		\end{itemize}} 
+\end{twenty}
+
+
+\newpage
+\makeseconda % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Selected Publications \& Research Outcomes}
+
+\begin{twenty}
+	\twentyitem
+	{ISBI 2025}
+	{Accepted}
+	{\textit{Anatomy-Guided Multitask Learning for Placenta Accreta Spectrum and Its Subtypes}}
+	{}
+	{}
+	{First author. Developed an anatomy-guided multitask learning framework for MRI-based PAS classification, reaching AUC $>$ 0.99.}
+	\\
+	\twentyitem
+	{Medical Physics}
+	{Revision}
+	{\textit{DECT-based Space-squeeze Method for Multi-class Classification of Metastasis Lymph Nodes in Breast Cancer}}
+	{}
+	{}
+	{First author. Designed a multi-channel CNN and virtual-class strategy to fuse multi-energy CT information, reaching average AUC = 0.85.}
+	\\
+	\twentyitem
+	{PMB}
+	{Accepted}
+	{\textit{Atypical Architectural Disorder Detection in Digital Breast Tomosynthesis: a multi-view computer-aided detection model with ipsilateral learning}}
+	{}
+	{}
+	{Co-author. Introduced Triplet Loss and Siamese learning to improve abnormal-region detection from multi-view DBT.}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+\vspace{1cm}
+\section{Computer Vision \& Imaging Projects}
+
+\begin{twenty}
+	\twentyitem
+	{RBC System}
+	{Cell AI}
+	{\textbf{TensorFlow-Based Red Blood Cell Classification System}}
+	{}
+	{}
+	{\begin{itemize}
+		\item Designed a six-class medical image classifier for red blood cells, addressing class imbalance, overfitting, and real-time inference constraints.
+		\item Applied sampling strategies, weighted losses, custom lightweight networks, and pooling-operator replacement to improve minority-class accuracy and generalization.
+	\end{itemize}}
+	\\
+	\twentyitem
+	{PAS MRI}
+	{Multitask}
+	{\textbf{Multitask Learning with Anatomical Priors}}
+	{}
+	{}
+	{\begin{itemize}
+		\item Used nnU-Net to segment placenta and uterine myometrium from 414 T2-weighted MRI cases, achieving mean Dice = 0.92.
+		\item Built a multitask model for binary and subtype classification, fusing anatomical priors via soft attention; binary AUC $>$ 0.99, improving the baseline by 20\%.
+	\end{itemize}}
+	\\
+	\twentyitem
+	{DECT}
+	{Breast CA}
+	{\textbf{Multi-Energy Fusion and Virtual-Class Strategy}}
+	{}
+	{}
+	{\begin{itemize}
+		\item Built a multi-channel CNN on 227 dual-energy CT cases across 11 energy levels (40--140 keV), using channel attention to strengthen feature fusion.
+		\item Proposed a virtual-class strategy to reduce class overlap and improve average AUC to 0.85, a 10\% gain over the baseline.
+	\end{itemize}}
+	\\
+	\twentyitem
+	{DBT}
+	{Detection}
+	{\textbf{Multi-View Detection with Siamese Learning}}
+	{}
+	{}
+	{\begin{itemize}
+		\item Developed multi-view CNN components for atypical architectural distortion detection in digital breast tomosynthesis.
+		\item Combined Triplet Loss and Siamese learning to improve abnormal-region representation and cross-view consistency.
+	\end{itemize}}
+	\\
+	\twentyitem
+	{MRI Recon}
+	{Deep Unfolding}
+	{\textbf{Deep ADMM-Net Implementation and Optimization}}
+	{}
+	{}
+	{\begin{itemize}
+		\item Implemented a Deep Unfolding reconstruction network based on ADMM optimization for end-to-end MRI reconstruction.
+		\item Used PyTorch and C++ to improve reconstruction quality under undersampling, grounded in compressed sensing and ADMM analysis.
+	\end{itemize}}
+\end{twenty}
+
+
+% \newpage
+% \makeseconda % Print the sidebar
+
+\end{document}
