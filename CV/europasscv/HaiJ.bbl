@@ -146,7 +146,7 @@
       \field{pages}{235006}
       \range{pages}{1}
     \endentry
-    \entry{wang}{article}{}{}
+    \entry{wang}{unpublished}{}{}
       \name{author}{5}{}{%
         {{hash=2b00ca6a7a75087db1e3243d2494fb6f}{%
            family={Wang},
@@ -186,8 +186,8 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Submitting}
-      \field{title}{Anatomical-Prior-Based Multiscale Segmentation of Cardiac Substructures Using Enhanced Skip-Connections and a Triple-View Fusion Network.}
+      \field{note}{Submitted}
+      \field{title}{Anatomical-Prior-Based Multiscale Segmentation of Cardiac Substructures Using Enhanced Skip-Connections and a Triple-View Fusion Network}
       \true{nocite}
     \endentry
     \entry{jiang2025dectbasedspacesqueezemethodmulticlass}{misc}{}{}
@@ -260,7 +260,7 @@
       \verb https://arxiv.org/abs/2505.17528
       \endverb
     \endentry
-    \entry{pan2026atypical}{inproceedings}{}{}
+    \entry{pan2026atypical}{unpublished}{}{}
       \name{author}{9}{}{%
         {{hash=bf57e25a34ddaec8ccab367832fef717}{%
            family={Pan},
@@ -321,8 +321,9 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Submitted to MICCAI 2025 (rejected after rebuttal, currently under revision)}
+      \field{note}{Under revision}
       \field{title}{Multi-view Architectural Distortion Detection with Confidence Boosting in Digital Breast Tomosynthesis}
+      \field{year}{2025}
       \true{nocite}
     \endentry
   \enddatalist

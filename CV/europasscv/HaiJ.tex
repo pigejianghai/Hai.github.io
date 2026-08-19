@@ -27,12 +27,22 @@
     \begin{europasscv}
         
     \ecvpersonalinfo
-    \ecvbigitem{Job applied for}{Ph.D. Applicant}
+    \ecvbigitem{Job applied for}{Ph.D. Applicant (Medical Image Analysis / Computer Vision)}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%% Work Experience
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \ecvsection{Work Experience}
-    \ecvtitlelevel{April 2026--Present}{Image Algorithm Engineer}{}
+    \ecvtitlelevel{July 2026--Present}{Algorithm Engineer}{}
+    \ecvitem{}{Shenzhen Guange Light Co., Ltd.}
+    \ecvitem{}{
+        \begin{ecvitemize}
+            \item Develop eye-tracking algorithms on image-sensor data for AR/VR glasses, covering wearing-position analysis and gaze-direction estimation.
+            \item Analyze device wearing position with PCA; estimate gaze direction with CNNs and geometric features.
+            \item Perform feature engineering, dimensionality reduction, and classifier tuning; deploy and optimize models on embedded targets.
+        \end{ecvitemize}
+    }
+    \ecvitem{Skills}{Eye tracking, gaze estimation, PCA, CNN-based regression, embedded deployment.}
+    \ecvtitlelevel{April 2026--July 2026}{Image Algorithm Engineer}{}
     \ecvitem{}{Shenzhen Image Technology Co., Ltd.}
     \ecvitem{}{
         \begin{ecvitemize}
@@ -59,8 +69,9 @@
     \ecvitem{}{
         \begin{ecvitemize}
             \item Designed and validated algorithms for national medical AI projects covering MRI, dual-energy CT, and digital breast tomosynthesis.
-            \item Built and evaluated deep learning models for clinical classification and detection tasks, supporting peer-reviewed manuscripts and translational research outcomes.
-            \item Contributed to grant proposals, final reports, and industry collaboration across multidisciplinary medical-imaging projects.
+            \item Proposed an anatomy-guided multitask learning framework with attention for placenta accreta spectrum classification on MRI, achieving AUC $>$ 0.99 and first-author acceptance at ISBI 2025.
+            \item Built a multi-channel CNN with a virtual-class strategy for lymph-node metastasis prediction from dual-energy CT, improving the average AUC to 0.85 (under revision at Medical Physics).
+            \item Contributed to multi-view CNN and Siamese-network research for DBT architectural-distortion detection, supporting a Guangdong Science and Technology Progress Award; also contributed to grant proposals, final reports, and industry collaboration.
         \end{ecvitemize}
     }
     \ecvitem{Skills}{Medical imaging, deep learning, PyTorch, TensorFlow, data preprocessing, research writing.}
@@ -69,21 +80,21 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %\vspace{1cm}
     \ecvsection{Education}
-    \ecvtitlelevel{September 2019--July 2022}{Master of Science in Computational Mathematics}{M. Sc.}
+    \ecvtitlelevel{September 2019--June 2022}{Master of Science in Computational Mathematics}{M. Sc.}
     \ecvitem{}{Nankai University (NKU, Project 985 \& 211, Double First-Class), Tianjin, China}
-    \ecvitem{Thesis}{GANs-Based Personal Style Imitation of Chinese Handwritten Characters.}
-    \ecvitem{}{Developed an end-to-end CycleGAN framework achieving 85\% visual similarity (10\% improvement over baselines).}
-    \ecvitem{Key Skills}{GANs, style-transfer learning, Python, PyTorch, data pre-processing.}
+    \ecvitem{Thesis}{Deep Unfolding Networks for MRI Image Reconstruction.}
+    \ecvitem{}{Research on optimization algorithms (Primal-Dual Learning, ADMM), deep learning, and MRI reconstruction.}
+    \ecvitem{Key Skills}{Deep unfolding, ADMM-based optimization, PyTorch, C++, Python.}
     \ecvitem{Supervisors}{Prof. Yunhua Xue, Prof. Chunlin Wu.}
     \ecvitem{Relevant Coursework}{Approximation Theory, Numerical Optimization, Functional Analysis, Matrix Computation, Numerical PDEs.}
     \ecvitem{GPA}{77.4/100.0.}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \ecvtitlelevel{September 2014--July 2018}{Bachelor of Engineering in Information Security}{B. Eng.}
+    \ecvtitlelevel{September 2015--June 2019}{Bachelor of Engineering in Information Security}{B. Eng.}
     \ecvitem{}{Lanzhou University (LZU, Project 985 \& 211, Double First-Class), Lanzhou, Gansu, China}
     \ecvitem{Thesis}{Improved Upper Bounds of Roman Domination Number in Maximal Outerplanar Graphs.}
     \ecvitem{}{Focused on graph theory and combinatorial optimization.}
     \ecvitem{Supervisor}{Prof. Zepeng Li.}
-    \ecvitem{Relevant Coursework}{Discrete Mathematics, Data Structures, Operating Systems, C/C++ Programming, Database Theory.}
+    \ecvitem{Relevant Coursework}{Discrete Mathematics, Data Structures, Algorithm Design and Analysis, Machine Learning, Cryptography, C/C++ Programming, Database Theory.}
     \ecvitem{GPA}{4.15/5.00.}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%% Research Experience
@@ -95,9 +106,9 @@
     \ecvblueitem{Project 1}{Placenta Accreta Spectrum Disorder Classification}
     \ecvitem{}{
         \begin{ecvitemize}
-            \item Developed a prior-knowledge-based deep learning approach for PASD binary classification, achieving AUC of 0.9902.
+            \item Developed an anatomy-guided multitask learning framework with attention for PASD binary classification, achieving AUC $>$ 0.99 (20\% improvement over baseline).
             \item Built a multi-task learning model using T2-WI MRI images for subtype classification, achieving AUC of 0.80.
-            \item Published: ``Anatomy-Guided Multitask Learning for MRI-Based Classification of Placenta Accreta Spectrum and Its Subtypes'' \cite{10981099}.
+            \item First-author paper accepted at ISBI 2025: ``Anatomy-Guided Multitask Learning for MRI-Based Classification of Placenta Accreta Spectrum and Its Subtypes'' \cite{10981099}.
         \end{ecvitemize}
     }
     \ecvitem{Skills}{Literature review, data preprocessing, PyTorch, research writing.}
@@ -105,9 +116,9 @@
     \ecvblueitem{Project 2}{Breast Cancer Metastasis Prediction}
     \ecvitem{}{
         \begin{ecvitemize}
-            \item Designed a CNN-based framework using dual-energy CT scans to predict metastasis.
-            \item Achieved AUC of 0.85 (mean cross-validation AUC).
-            \item Manuscript submitted to MICCAI 2024 and under revision for Journal of Medical Physics \cite{jiang2025dectbasedspacesqueezemethodmulticlass}.
+            \item Designed a multi-channel CNN with a virtual-class strategy on dual-energy CT scans across 11 energy levels (40--140 keV) to predict metastasis.
+            \item Achieved average AUC of 0.85 (10\% gain over baseline).
+            \item First-author manuscript under revision at Medical Physics \cite{jiang2025dectbasedspacesqueezemethodmulticlass}.
         \end{ecvitemize}
     }
     \ecvitem{Skills}{TensorFlow, Keras, data analysis, experimental design, research writing.}
@@ -115,21 +126,23 @@
     \ecvblueitem{Project 3}{Multi-view Learning for Atypical Architectural Disorder Detection in Breast DBT}
     \ecvitem{}{
         \begin{ecvitemize}
-            \item Contributed to the multi-view learning framework for atypical architectural disorder detection in digital breast tomosynthesis (DBT) images.
-            \item Introduced a novel Siamese module with triplet loss to enhance feature extraction and detection performance \cite{pan2023atypical}.
+            \item Contributed to the multi-view computer-aided detection model with ipsilateral learning for atypical architectural disorder detection in digital breast tomosynthesis (DBT) images.
+            \item Introduced a novel Siamese module with triplet loss to enhance feature extraction and cross-view detection consistency.
+            \item Co-authored paper published in Physics in Medicine \& Biology (2023) \cite{pan2023atypical}; research supported a Guangdong Science and Technology Progress Award.
         \end{ecvitemize}
     }
     \ecvitem{Skills}{Mask-RCNN, Detection, Siamese Network, Multi-view, Triplet-Loss.}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \ecvtitlelevel{January 2022--June 2022}{Image Analysis Team}{}
     \ecvitem{}{School of Mathematical Sciences, Nankai University}
-    \ecvitem{Project}{ADMM Model for Compressive-Sensing MRI.}
+    \ecvitem{Project}{Deep ADMM-Net Implementation for Compressive-Sensing MRI.}
     \ecvitem{}{
         \begin{ecvitemize}
-            \item Reproduced iterative mathematical equations from Deep ADMM-Net for Compressive- \newline Sensing MRI using C++, Python, and PyTorch.
+            \item Implemented an end-to-end deep unfolding reconstruction network based on the ADMM optimization framework for compressive-sensing MRI.
+            \item Improved reconstruction quality under undersampling using PyTorch and C++, grounded in compressed sensing and ADMM analysis.
         \end{ecvitemize}
     }
-    \ecvitem{Skills}{Compressive-sensing theory, neural networks, MRI reconstruction.}
+    \ecvitem{Skills}{Compressive-sensing theory, deep unfolding, ADMM optimization, MRI reconstruction.}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \nocite{*}
     \renewcommand{\section}[2]{\ecvsection{#2}}
@@ -141,12 +154,12 @@
     \ecvsection{Technical Skills}
     \ecvitem{Programming}{Python, C/C++, PyTorch, TensorFlow, Keras, MATLAB, LaTeX, Git.}
     \ecvitem{Tools \& Platforms}{Linux (Ubuntu), ONNX, TensorRT, CMake, Microsoft Office, Adobe Photoshop.}
-    \ecvitem{Research Methods}{Deep learning, computer vision, image processing, medical imaging, computational geometry, compressive sensing.}
+    \ecvitem{Research Methods}{Deep learning, computer vision, image processing, medical imaging, computational geometry, compressive sensing, eye tracking.}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%% Awards & Scholarship
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \ecvsection{Awards \& Scholarship}
-    \ecvitem{2014--2018}{Four-time recipient of the Third-Class Merit Scholarship for Academic Excellence at LZU.}
+    \ecvitem{2015--2019}{Four-time recipient of the Third-Class Merit Scholarship for Academic Excellence at LZU.}
     \ecvitem{2019--2022}{Three-time recipient of the Third-Class Merit Scholarship for Academic Excellence at NKU.}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%% Language Proficiency
@@ -154,7 +167,7 @@
     %\newpage
     \ecvsection{Language Proficiency}
     \ecvitem{Mandarin}{Native.}
-    \ecvitem{English}{Professional (IELTS 7.0, CET6 476/710, CET4 544/710).}
+    \ecvitem{English}{Professional (C1; IELTS 7.0, CET6 476/710, CET4 544/710).}
     \ecvitem{Cantonese}{Intermediate.}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%% Research Project Documentation
@@ -179,7 +192,7 @@
     %%% References
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % \vspace{3cm}
-    \newpage
+    % \newpage
     \ecvsection{References}
     \ecvblueitem{Yunhua Xue}{Associate Professor, Computational Mathematics, Nankai University}
     \ecvitem{}{E-mail: \underline{yhxue@nankai.edu.cn}}
