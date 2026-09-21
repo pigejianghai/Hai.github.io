@@ -12,24 +12,24 @@
 \newcommand\mllibs{ 
 ~
 	\smartdiagram[bubble diagram]{
-        \textbf{~~~~~~~Raw~~~~~~~}\\\textbf{~~Data~~},
         \textbf{~~~~~PyTorch~~~~~},
-        \textbf{~~~~Keras~~~~},
-        \textbf{~~~~Numpy~~~~},
-	\textbf{~~~~~Scikit~~~~~~}\\\textbf{~~~Learn~~~},
-	\textbf{~~TensorFlow~~}
+        \textbf{~~~TensorFlow~~~},
+        \textbf{~~~~YOLO~~~~},
+        \textbf{~~~~nnU-Net~~~~},
+        \textbf{~~~~ONNX~~~~},
+        \textbf{~~~TensorRT~~~}
     }
 }
 
 \newcommand\pythonlibs{
 ~
 	\smartdiagram[bubble diagram]{
-        \textbf{~~~~~~Imbalanced~~~~~~}\\\textbf{~~~~~Learn~~~~~},
-        \textbf{~~~~~TorchMetrics~~~~~},
-        \textbf{~~~~~Albumentations~~~~~},
-        \textbf{~~~~~SimpleITK~~~~},
-        \textbf{~~~~~Ultralytics~~~~},
-        \textbf{~~~~~Pydicom~~~~},
+        \textbf{~~~Ultralytics~~~},
+        \textbf{~~~~~Pydicom~~~~~},
+        \textbf{~~~~SimpleITK~~~~},
+        \textbf{~~~Albumentations~~~},
+        \textbf{~~~~TorchMetrics~~~~},
+        \textbf{~~~imbalanced~~~~~}\\\textbf{~~~~~Learn~~~~~},
         \textbf{~~~Netron~~~}
     }
 }
@@ -52,9 +52,11 @@
 
 % Programming skill bars
 % Sidebar programming skills, using \textbullet instead of $\textbullet$.
-\programming{{\textbullet{} C++ \textbullet{} C \textbullet{} MATLAB / 4.5}, {\textbullet{} Linux \textbullet{} Git \textbullet{} CMake / 5.0}, {\textbullet{} ONNX \textbullet{} TensorRT / 5.0}, 
-{\textbullet{} PyTorch \textbullet{} TensorFlow / 5.5}, 
-{\textbullet{} Python / 5.5}}
+\programming{{\textbullet{} Python / 5.5}, 
+{\textbullet{} PyTorch / 5.5}, 
+{\textbullet{} TensorFlow \textbullet{} Keras / 5.0}, 
+{\textbullet{} ONNX \textbullet{} TensorRT / 5.0}, 
+{\textbullet{} C++ \textbullet{} OpenCV / 4.5}}
 \vspace{10mm}
 \programminglanguage{{ English (C1, IELTS 7.0) / 5}, { Mandarin Chinese (Native) / 6}}
 
@@ -73,7 +75,7 @@
 \profilepic{profile.jpg}% My photo is here
 \cvname{\hspace{-0.3cm}Hai} % My name.
 \cvsurname{\hspace{-0.3cm}Jiang} % My surname
-\cvjobtitle{{\LARGE\bfseries CV Engineer} \\[4pt] {\normalsize AI / ML Engineer} \\[2pt] {\normalsize Imaging Algorithms}} % My position.
+\cvjobtitle{{\LARGE\bfseries Computer Vision Engineer} \\[4pt] {\normalsize AI / Deep Learning Engineer}} % My position.
 % title/career
 
 % \cvlinkedin{hai-jiang-649171314}
@@ -87,7 +89,7 @@
 
 \justifying
 
-Computer vision and imaging algorithm engineer with experience in medical imaging and industrial AI, spanning segmentation, detection, OCR, geometric feature extraction, and deployment optimization. M.Sc. in Computational Mathematics from Nankai University. Currently an Algorithm Engineer at Shenzhen Guange Light Co., Ltd., developing eye-tracking algorithms on image-sensor data for AR/VR glasses, covering wearing-position analysis, gaze-direction estimation, feature modeling, and embedded deployment. Previously an algorithm engineer at Shenzhen Zhongrui Power Technology and Shenzhen Image Technology, delivering an automated AI engine and PCB Gerber geometric feature extraction with hands-on experience in ONNX/TensorRT deployment. Earlier a research assistant at the Sun Yat-sen University medical imaging lab, contributing to national medical AI projects with a first-author ISBI 2025 paper and a Medical Physics manuscript under revision. Proficient in PyTorch and C++, focused on turning cutting-edge algorithms into deployable industrial solutions.
+Computer vision and deep learning engineer with about 4 years of hands-on R\&D experience spanning image classification, object detection, instance segmentation, medical image analysis, eye-tracking, and model deployment. M.Sc. in Computational Mathematics from Nankai University. Skilled in PyTorch, CNN, YOLO, nnU-Net, multitask learning, and attention mechanisms, with end-to-end experience from data processing and model design through training and evaluation to ONNX/TensorRT inference optimization and embedded deployment. Contributed to AR/VR eye-tracking, industrial computer-vision AI engines, and multiple medical-imaging AI projects, with a first-author paper accepted at ISBI 2025. Combines deep learning with traditional geometric-feature engineering in Python and C++; seeking a long-term role focused on computer vision and AI algorithm development.
 
 }
 
@@ -110,59 +112,59 @@ Computer vision and imaging algorithm engineer with experience in medical imagin
 
 \section{Professional Experience}
 
+{\small\itshape Recent roles: project-based/fixed-term computer-vision R\&D in eye tracking, industrial vision, geometric algorithms, and deployment.}
+
 \begin{twenty}
     \twentyitem
         {2026.07}
-		{Present}
+		{2026.09}
 		{\textbf{Algorithm Engineer}}
-		{\textbf{Shenzhen Guange Light Co., Ltd.}}
+		{\textbf{Shenzhen Guange Light Co., Ltd.} (Project-based)}
         {}
         {\begin{itemize}
-			\item Develop eye-tracking algorithms on image-sensor data for AR/VR glasses: wearing-position analysis and gaze-direction estimation.
-			\item Analyze device wearing position with PCA; estimate gaze direction with CNNs and geometric features.
-			\item Perform feature engineering, dimensionality reduction, and classifier tuning; deploy and optimize models on embedded targets.
+			\item Contributed to eye-tracking algorithms for AR/VR glasses on image-sensor data, covering wearing-state recognition and gaze-direction estimation with data analysis, feature construction, and model training/evaluation.
+			\item Fused CNN visual and eye geometric features and used PCA to analyze wearing-offset effects; involved in model lightweighting and embedded inference optimization.
         \end{itemize}}
-        \\[-0.2cm]
+        \\[-0.35cm]
     \twentyitem
         {2026.04}
 		{2026.07}
 		{\textbf{Image Algorithm Engineer}}
-		{\textbf{Shenzhen Image Technology Co., Ltd.}}
+		{\textbf{Shenzhen Image Technology Co., Ltd.} (Project-based)}
         {}
         {\begin{itemize}
-			\item Develop C++ geometry algorithms for PCB copper-layer Gerber parsing and polygon feature extraction, converting raw contour data into structured inspection-ready representations.
-			\item Extract edges, traces, corners, blocks, and pads into a structured feature database; design efficient computational-geometry and topology modules with optimized memory and throughput.
+			\item Developed C++ modules for PCB copper-layer Gerber parsing and polygon feature extraction, structuring edges, traces, corners, blocks, and pads into a feature database with efficient geometry/topology algorithms as the foundation for downstream vision inspection.
         \end{itemize}}
-        \\[-0.2cm]
+        \\[-0.35cm]
     \twentyitem
         {2025.08}
 		{2026.04}
 		{\textbf{Computer Vision Algorithm Engineer}}
-		{\textbf{Shenzhen Zhongrui Power Technology Co., Ltd.}}
+		{\textbf{Shenzhen Zhongrui Power Technology Co., Ltd.} (Project-based)}
         {}
         {\begin{itemize}
-			\item Built an automated AI engine for a property-management data platform using YOLO, enabling object recognition, segmentation, and classification from user-uploaded images; integrated OCR to extract key text from buildings, units, and signs.
-			\item Packaged the inference pipeline behind standardized APIs for web integration, using ONNX export and TensorRT acceleration to improve real-time response latency.
+			\item Built an automated AI engine with YOLO for a property-management data platform, training and evaluating models for object detection, instance segmentation, and classification of buildings and facilities.
+			\item Integrated OCR for text extraction from buildings, units, and signs via an end-to-end pipeline covering preprocessing, localization, recognition, and structured output.
+			\item Packaged the inference pipeline behind standardized APIs and used ONNX/TensorRT acceleration to meet real-time response requirements.
         \end{itemize}}
-        \\[-0.2cm]
+        \\[-0.35cm]
     \twentyitem		{2022.07}
 		{2025.07}
 		{\textbf{Research Assistant}}
 		{\textbf{Computational Medical Imaging Laboratory, Sun Yat-sen University}}
 		{}
 		{\begin{itemize}
-		\item Designed and validated algorithms for national medical AI projects, covering MRI, dual-energy CT, and digital breast tomosynthesis; contributed to grant proposals, final reports, and industry collaboration.
-		\item Proposed an anatomy-guided multitask learning framework with attention for placenta accreta spectrum classification on MRI, achieving AUC $>$ 0.99 and first-author acceptance at ISBI 2025.
-		\item Built a multi-channel CNN with a virtual-class strategy for lymph-node metastasis prediction from dual-energy CT, improving average AUC to 0.85 (under revision at Medical Physics); contributed to multi-view CNN and Siamese-network research for DBT architectural-distortion detection, supporting a Guangdong Science and Technology Progress Award.
+		\item Contributed to national medical-imaging AI projects (MRI, dual-energy CT, DBT), covering preprocessing, model design, training/evaluation, and ablation studies for classification, segmentation, and anomaly detection.
+		\item Proposed an anatomy-guided multitask framework with Soft-Attention on 414 T2-weighted MRI cases (nnU-Net segmentation, mean Dice = 0.92), reaching AUC $>$ 0.99; first-author paper accepted at ISBI 2025.
+		\item Built a multi-channel DECT CNN with a virtual-class strategy (average AUC 0.85, in revision at Medical Physics); also contributed to DBT multi-view CNN/Siamese research.
 		\end{itemize}}
-		\\[-0.2cm]
+		\\[-0.35cm]
 \end{twenty}
 
 
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
-\vspace{0.2cm}
 \section{Education}
 
 \begin{twenty} % Environment for a list with descriptions
@@ -228,20 +230,9 @@ Computer vision and imaging algorithm engineer with experience in medical imagin
 %	 PROJECTS
 %----------------------------------------------------------------------------------------
 \vspace{1cm}
-\section{Computer Vision \& Imaging Projects}
+\section{Selected AI Vision Projects}
 
 \begin{twenty}
-	\twentyitem
-	{RBC System}
-	{Cell AI}
-	{\textbf{TensorFlow-Based Red Blood Cell Classification System}}
-	{}
-	{}
-	{\begin{itemize}
-		\item Designed a six-class medical image classifier for red blood cells, addressing class imbalance, overfitting, and real-time inference constraints.
-		\item Applied sampling strategies, weighted losses, custom lightweight networks, and pooling-operator replacement to improve minority-class accuracy and generalization.
-	\end{itemize}}
-	\\
 	\twentyitem
 	{PAS MRI}
 	{Multitask}
@@ -273,17 +264,6 @@ Computer vision and imaging algorithm engineer with experience in medical imagin
 	{\begin{itemize}
 		\item Developed multi-view CNN components for atypical architectural distortion detection in digital breast tomosynthesis.
 		\item Combined Triplet Loss and Siamese learning to improve abnormal-region representation and cross-view consistency.
-	\end{itemize}}
-	\\
-	\twentyitem
-	{MRI Recon}
-	{Deep Unfolding}
-	{\textbf{Deep ADMM-Net Implementation and Optimization}}
-	{}
-	{}
-	{\begin{itemize}
-		\item Implemented a Deep Unfolding reconstruction network based on ADMM optimization for end-to-end MRI reconstruction.
-		\item Used PyTorch and C++ to improve reconstruction quality under undersampling, grounded in compressed sensing and ADMM analysis.
 	\end{itemize}}
 \end{twenty}
 
